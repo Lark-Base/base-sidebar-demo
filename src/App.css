@@ -1,0 +1,27 @@
+@import 'reset-css';
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: transparent;
+  color: #1f2329;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Tahoma,
+    "PingFang SC", "Microsoft Yahei", Arial, sans-serif;
+}
+
+.demo-line {
+  padding: 16px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e8e8e8;
+  }
+}
